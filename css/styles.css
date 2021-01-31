@@ -48,3 +48,9 @@ a, a:hover {
 .carousel {
     border: solid #5637DD;
 }
+/* Start Bootstrap Part 1*/
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
