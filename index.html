@@ -29,19 +29,18 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col col-md-4 col-xl-2">
-                <!--Start Task 1-->
-                    <a role="button" class="btn btn-lg btn-info text-nowrap" data-toggle="modal" data-target="#reserveModal">Reserve Campsite</a>
-                <!-- End Task 1-->
+                <!-- Start Wk4 Task1_01-->
+                    <a role="button" class="btn btn-lg btn-info text-nowrap" id="reserveButton">Reserve Campsite</a>
+                <!--End Wk4 Task1_01-->
                 </div> 
             </div>
         </div>
     </header>
 
-    <!-- Start Task 2-->
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -68,7 +67,6 @@
                                     <input type="date" id="date" name="date" class="form-control" placeholder="mm/dd/yyyy">
                                 </div>
                             </div>
-                            <!-- Start Task 3-->
                             <div class="form-group row">
                                 <label class="col-sm-6 col-form-label">Campsite Type</label>
                                 <div class="col-2 btn-group btn-group-toggle" date-toggle="buttons">
@@ -80,7 +78,6 @@
                                     </label>
                                 </div>
                             </div>
-                            <!-- End Task 3-->
                             <div class="row">
                                 <div class="col">
                                     <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">Cancel</button>
@@ -93,8 +90,6 @@
             </div>
         </div>
     </div>
-
-    <!-- End Task 2-->
     
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
@@ -110,7 +105,9 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contacts</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <!-- Start Wk4 Task1_02-->
+                    <a role="button" id="loginButton">
+                        <!-- End Wk4 Task1_02-->
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -195,11 +192,9 @@
                         <span class="carousel-control-next-icon"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                    <!--Start Bootstrap jQuery Part 2-->
                         <button class="btn btn-danger btn-sm" id="carouselButton">
                             <i class="fa fa-pause"></i>
                         </button>
-                    <!--End Bootstrap jQuery Part 2-->
                 </div>
             </div>
         </div>
